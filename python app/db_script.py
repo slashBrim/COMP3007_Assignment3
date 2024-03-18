@@ -4,10 +4,10 @@ from psycopg.rows import dict_row
 def get_connection():
     # Replace these values with your PostgreSQL database details
     conn = psycopg.connect(
-        dbname="Assignment3", 
-        user="postgres",
-        password="kofdoj-4baHri-camref",
-        host="localhost"
+        dbname="", 
+        user="",
+        password="",
+        host=""
     )
     return conn
 
